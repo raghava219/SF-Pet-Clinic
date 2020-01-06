@@ -11,6 +11,7 @@
 	<modules>
 		<module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>
+		<module>Dependency-Injection</module>
 	</modules>
 
 	<packaging>pom</packaging>
