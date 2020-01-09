@@ -12,6 +12,7 @@
 		<module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>
 		<module>Dependency-Injection</module>
+		<module>recipe-app</module>
 	</modules>
 
 	<packaging>pom</packaging>
@@ -79,29 +80,29 @@
 				</configuration>
 			</plugin>
 			<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.22.0</version>
-                <configuration>
-                    <argLine>
-                        --illegal-access=permit
-                    </argLine>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>integration-test</goal>
-                            <goal>verify</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.22.0</version>
+				<configuration>
+					<argLine>
+						--illegal-access=permit
+					</argLine>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
-	
+
 	<scm>
-        <developerConnection>scm:git:git@github.com:raghava219/sf-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>	
+		<developerConnection>scm:git:git@github.com:raghava219/sf-pet-clinic.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 </project>
