@@ -1,10 +1,12 @@
 package guru.springframework.converters;
 
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
 
 import guru.springframework.commands.IngredientCommand;
 import guru.springframework.domain.Ingredient;
 
+@Component
 public class IngredientToIngredientCommand implements Converter<Ingredient, IngredientCommand> {
 
 	private final UnitOfMeasureToUnitOfMeasureCommand uomConverter;
