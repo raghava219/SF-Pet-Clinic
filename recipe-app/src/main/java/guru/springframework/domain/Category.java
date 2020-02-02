@@ -2,6 +2,7 @@ package guru.springframework.domain;
 
 import java.util.Set;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -14,6 +15,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @EqualsAndHashCode(exclude = {"recipes"})
+@Entity
 public class Category {
 
 	@Id
@@ -23,4 +25,5 @@ public class Category {
     
     @ManyToMany(mappedBy = "categories")
     private Set<Recipe> recipes;
+    
 }
