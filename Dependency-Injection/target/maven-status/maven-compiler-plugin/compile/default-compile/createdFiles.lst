@@ -1,0 +1,12 @@
+com\example\service\ConstructorInjectedServicesImpl.class
+com\example\controller\SetterInjectedController.class
+com\example\service\GreetingServiceImpl.class
+com\example\controller\ConstructorInjectedController.class
+com\example\service\PrimaryGreetingServiceImpl.class
+com\example\service\SetterInjectedServicesImpl.class
+com\example\dependency_injection\DependencyInjectionApplication.class
+com\example\controller\MyController.class
+com\example\controller\PropertyInjectedController.class
+com\example\service\PropertyInjectedServicesImpl.class
+com\example\service\GreetingService.class
+com\example\service\PrimarySpanishGreetingService.class

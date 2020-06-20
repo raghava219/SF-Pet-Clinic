@@ -1,4 +1,6 @@
+com\example\camel\activemq\SimpleRouteBuilder.class
 com\example\camel\fileTransfer\MyTransform.class
+com\example\camel\activemq\MainApp.class
 com\example\camel\fileTransfer\App.class
 com\example\camel\fileTransfer\MyLogProcessor.class
 com\example\camel\fileTransfer\MyRouteBuilder.class
