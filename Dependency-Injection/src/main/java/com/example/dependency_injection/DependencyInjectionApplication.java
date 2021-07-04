@@ -50,13 +50,19 @@ public class DependencyInjectionApplication {
 		
 		
 		System.out.println(my.hello());
-		System.out.println(pi_using_spring.sayHello());
-		System.out.println(ci_using_spring.sayHello());
-		System.out.println(si_using_spring.sayHello());
+		System.out.println();
+		System.out.println("Property Injection using Spring : "+pi_using_spring.sayHello());
+		System.out.println();
+		System.out.println("Cunstroctor Injection using Spring : "+ci_using_spring.sayHello());
+		System.out.println();
+		System.out.println("Setter Injection using Spring : "+si_using_spring.sayHello());
+		System.out.println();
 		
-		System.out.println(pi.sayHello());
-		System.out.println(ci.sayHello());
-		System.out.println(si.sayHello());		
+		System.out.println("Property Injection without Spring : "+pi.sayHello());
+		System.out.println();
+		System.out.println("Cunstroctor Injection without Spring : "+ci.sayHello());
+		System.out.println();
+		System.out.println("Setter Injection without Spring : "+si.sayHello());		
 	}
 
 }

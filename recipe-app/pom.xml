@@ -17,9 +17,8 @@
 	</properties>
 
 
-	<groupId>com.spring.example</groupId>
+	<groupId>guru.springframework</groupId>
 	<artifactId>recipe-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>recipe-app Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -53,10 +52,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
@@ -67,6 +64,12 @@
 			<artifactId>jquery</artifactId>
 			<version>3.4.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version><!--$NO-MVN-MAN-VER$-->
+		</dependency>
+		
 
 	</dependencies>
 	<build>
